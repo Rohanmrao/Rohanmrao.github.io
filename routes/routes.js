@@ -4,6 +4,11 @@ const mongoose = require('mongoose');
 const visitor_model = require('../models/schema');
 const path = require('path');
 
+router.get('/home', (req,res) => {
+
+    res.sendFile('landing.html',{root: path.join(__dirname,'../html/')});
+})
+
 
 //middleware core
 async function get_vis(req,res,next) {
