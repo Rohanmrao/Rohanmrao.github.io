@@ -12,6 +12,7 @@ ul {
   --color-base2: #022a30;
   --sidebar-width: 200px;
   --default-font-weight: 400;
+  --color-hover: #fc9803;
 }
 
 body {
@@ -41,4 +42,14 @@ img {
     background: linear-gradient(rgba(3,63,71,0.9),rgba(3,63,71,0.9)),url(../../images/sidebar_img.avif);
 
   }
+}
+
+.navbar .nav-link {
+
+  text-transform:uppercase;
+}
+
+.navbar .nav-link:hover {
+
+  color: var(--color-hover);
 }
