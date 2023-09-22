@@ -22,7 +22,7 @@ server.use(express.json()); // initialise the use of middleware
 
 
 const router = require('./routes/routes');
-server.use('/routes',router);  // /visitor is the ulr entrypoint to access all the routes in the router.js middleware
+server.use(router);  // /visitor is the ulr entrypoint to access all the routes in the router.js middleware
 
 const port = 5000;
 server.listen(port, () => {console.log(`Server started on port ${port} ...`)});
