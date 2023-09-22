@@ -49,10 +49,28 @@ width: 100%;
 
 text-transform:uppercase;
 color: var(--color-heading);
+font-weight: 700;
 
 }
 
 .navbar .nav-link:hover {
 color: var(--color-heading);
 color: var(--color-hover);
+}
+
+/* content-wrapper is an id not a class */
+#content-wrapper{
+
+    padding-left: var(--sidebar-width);
+}
+
+.full-height {
+
+  min-height: 100vh;
+  height:100%;
+  display: flex;
+  align-items:center;
+  flex-direction: column; /* makes new containers appaer one below another */
+  justify-content: center;
+
 }
