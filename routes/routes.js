@@ -4,9 +4,18 @@ const mongoose = require('mongoose');
 const visitor_model = require('../models/schema');
 const path = require('path');
 
+router.use('/static', express.static(path.join(__dirname, '../static')));
+
 router.get('/home', (req,res) => {
 
     res.sendFile('landing.html',{root: path.join(__dirname,'../html/')});
+    
+})
+
+
+router.get('/about', (req,res) => {
+
+    res.sendFile('about.html',{root: path.join(__dirname,'../html/about/')})
 })
 
 
