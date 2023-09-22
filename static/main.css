@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
 :root {
 
 --color-body: #b6cbce;
@@ -21,11 +25,19 @@ h1,h2,h3,h4,h5,h6 {
 
 color: var(--color-heading);
 font-weight: var(--default-font-weight);
+font-family: 'Source Code Pro', monospace;
 }
+
+p{
+
+  color: var(--color-body);
+  font-weight: var(--default-font-weight);
+  font-family: 'Source Code Pro', monospace;
+  }
 
 img {
 
-width: 100%;
+width: 80%;
 }
 /* navbar class */
 
@@ -73,4 +85,32 @@ color: var(--color-hover);
   flex-direction: column; /* makes new containers appaer one below another */
   justify-content: center;
 
+}
+
+.source_code_pro_font {
+
+  font-family: 'Source Code Pro', monospace;
+}
+
+.source_code_pro_font_big {
+
+  font-family: 'Source Code Pro', monospace;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: right;
+  padding-right: 15px;
 }
