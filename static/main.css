@@ -8,8 +8,8 @@
 
 --color-body: #b6cbce;
 --color-heading: #ffe100;
---color-base: #202222;
---color-base2: #202222;
+--color-base: #161717;
+--color-base2: #181a1a;
 --sidebar-width: 240px;
 --default-font-weight: 400;
 --color-hover: #fc5203;
@@ -47,7 +47,7 @@ width: 80%;
 
     min-height: 100vh;  /* sidebar runs all the way down */
     width: var(--sidebar-width);
-    background: linear-gradient(rgb(72, 74, 70,0.9),rgb(72, 74, 70,0.9)),url(../../static/sidebar.jpg);
+    background: linear-gradient(rgba(50, 51, 49, 0.9),rgba(42, 42, 42, 0.9)),url(../../static/sidebar.jpg);
 
   }
 
