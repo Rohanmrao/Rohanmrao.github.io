@@ -6,7 +6,7 @@
 --color-heading: #ffe100;
 --color-base: rgb(72, 74, 70);
 --color-base2: #202222;
---sidebar-width: 220px;
+--sidebar-width: 240px;
 --default-font-weight: 400;
 --color-hover: #fc5203;
 }
@@ -41,7 +41,7 @@ width: 100%;
 
   .navbar-brand img {
 
-    border: 7px solid var(--color-heading);
+    border: 5px solid var(--color-heading);
   }
 }
 

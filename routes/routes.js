@@ -15,7 +15,7 @@ router.get('/home', (req,res) => {
 
 router.get('/about', (req,res) => {
 
-    res.sendFile('about.html',{root: path.join(__dirname,'../html/about/')})
+    res.sendFile('about.html',{root: path.join(__dirname,'../html/')})
 })
 
 
