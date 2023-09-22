@@ -47,7 +47,7 @@ width: 80%;
 
     min-height: 100vh;  /* sidebar runs all the way down */
     width: var(--sidebar-width);
-    background: linear-gradient(rgba(50, 51, 49, 0.9),rgba(42, 42, 42, 0.9)),url(../../static/sidebar.jpg);
+    background: linear-gradient(rgba(35, 35, 34, 0.9),rgba(27, 26, 26, 0.9)),url(../../static/sidebar.jpg);
 
   }
 
@@ -116,6 +116,11 @@ color: var(--color-hover);
 }
 
 #about-wrapper{
+
+  padding-left: var(--sidebar-width);
+}
+
+#projects-wrapper{
 
   padding-left: var(--sidebar-width);
 }
