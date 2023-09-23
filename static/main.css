@@ -9,8 +9,9 @@
 --color-base: #161717;
 --color-base2: #181a1a;
 --sidebar-width: 240px;
---default-font-weight: 400;
---color-hover: #fc5203;
+--default-font-weight: 420;
+--color-hover: #e6682e;
+--color-hover-button: #f2bd1e;
 }
 
 /* @keyframes pulsing-color {
@@ -119,7 +120,7 @@ color: var(--color-hover);
   width: 100%;
   color: white;
   text-align: right;
-  padding-right: 35px;
+  padding-right: 40px;
 }
 
 #about-wrapper{
@@ -241,6 +242,26 @@ li a {
   padding:0;
   margin:0px;
 }
+
+/* button overrides */
+
+.btn-primary {
+  background-color: var(--color-hover) !important;
+  border-color: var(--color-hover);
+  font-weight: var(--default-font-weight);
+  font-family: 'Source Code Pro', monospace;
+  color: #ffffff;
+
+}
+
+.btn-primary:hover{
+
+  background-color: var(--color-hover-button) !important;
+  border-color: var(--color-hover-button);
+  color:#161717;
+
+}
+
 
 
 
