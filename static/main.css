@@ -218,6 +218,11 @@ li a {
     padding-left: var(--sidebar-width);
 }
 
+#experience-wrapper{
+
+  padding-left: var(--sidebar-width);
+}
+
 @keyframes Gradient {
   0% {
     background-position: 0% 50%;
