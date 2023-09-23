@@ -87,12 +87,11 @@
               <div class = "col-lg-4 center">
                 <h1 style="font-size: 1.5rem;">I'm a final year B.Tech (ECE) student @ PESU Bangalore and I'm passionate about building new things </h1>
                 <p style="font-size: 1.5rem;">Love software development, robotics and machine learning</p><br>
-                <p style="font-size: 1.5rem">I'm currently the teaching assistant for the course Digital Image Processing here at PESU !</p><br>
+                <div><p style="font-size: 1.5rem">I'm currently the teaching assistant for the course Digital Image Processing here at PESU !</p></div><br>
 
-                <p style="font-size: 1.5rem">When I ain't clicking the keyboard, you can find me playing the guitar, shooting hoops or watching movies... </p><br><br><br>
-                <p style="font-size: 1.7rem;">Key skills : <h1 style="font-size: 1.7rem;">Python, HTML, CSS , JS, Node.js, Express.js, Tensorflow, OpenCV, skikit-learn, git(CLI), Docker, Linux and RaspberryPi</h1></p><br><br><br>
-                <p style="font-size: 1.7rem;">Key skills : <h1 style="font-size: 1.7rem;">Python, HTML, CSS , JS, Node.js, Express.js, Tensorflow, OpenCV, skikit-learn, git(CLI), Docker, Linux and RaspberryPi</h1></p><br>
-                <p style="font-size: 1.7rem;">Currently exploring: <h1 style="font-size: 1.7rem;">SQL, AWS and Kubernetes</h1></p>
+                <p style="font-size: 1.5rem">When I ain't clicking the keyboard, you can find me playing the guitar, shooting hoops or watching movies... </p><br><br>
+                <p style="font-size: 1.7rem;">Key skills : <h1 style="font-size: 1.5rem;">Python, HTML, CSS , JS, Node.js, Express.js, Tensorflow, OpenCV, skikit-learn, git(CLI), Docker, Linux and RaspberryPi</h1></p><br><br>
+                <p style="font-size: 1.7rem;">Currently exploring: <h1 style="font-size: 1.5rem;">SQL, AWS and Kubernetes</h1></p>
 
               </div>
             </div>
@@ -100,22 +99,23 @@
         </div>
 
         <!-- PROJECTS SECTION-->
-        <div id="projects-wrapper" class="full-height px-lg-4">
-          <section id="projects">
+        <div id="projects-wrapper">
+          <section id="projects" class ="full-height">
             <div class="row">
-              <div class="col-lg-4 center">
-                <h1 style="font-size: 2rem; padding-left: 380px; padding-top: 35px;">Here are a couple of things I've worked on</h1>
+              <div>
+                <h1 style="font-size: 2rem;">Here are a couple of things I've worked on</h1>
               </div>
             </div>
 
-            <ul class="ms-auto flex-lg-row text-lg-center list-group list-group-flush pt-lg-4" style="display: inline-block; padding-left: 320px;"> <!--flex-largedevices- columnwise-->
+            <ul class="ms-auto flex-lg-row text-lg-center list-group list-group-flush pt-lg-4 px-lg-auto px-xl-auto" style="display: inline-block; padding-right: 270px; padding-left: 500px;"> <!--flex-largedevices- columnwise-->
 
               <li class="list-group-item" style="background-color:#181a1a;">
                 <div class="card" style="width: 18rem;">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">ML Driven Audio Visualiser</h5>
+                    <p class="card-text">Music genre classifier interfaced with an controllable LED array, to obtain real time
+                      music visualisation and lighting patterns based on the song playing</p>
+                    <a href="https://github.com/Rohanmrao/Audio_Visualizer" class="btn btn-primary" target="_blank">View project</a>
                   </div>
                 </div>
               </li>
@@ -123,9 +123,23 @@
               <li class="list-group-item" style="background-color:#181a1a;">
                 <div class="card" style="width: 18rem;">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">ML Assisted De-speckling of Images</h5>
+                    <p class="card-text">Used various machine learning models (both regression and classification) to
+                      predict optimum filter sizes for image denoising, based on the amount of noise present in the image. Won the best
+                      project award for the course Digital Image Processing (UE20EC317)</p>
+                    <a href="https://github.com/Rohanmrao/Image-Despeckling" class="btn btn-primary" target="_blank">View project</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-group-item" style="background-color:#181a1a;">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body" style="flex-direction: row;">
+                    <h5 class="card-title">Career Guidance System for Soldiers</h5>
+                    <p class="card-text">Created and deployed an ML based career guidance system, specifically for
+                      the ex-military. Used physical and mental performance data (collected during the time of service) to suggest career
+                      options after the military tenure of soldiers</p>
+                    <a href="https://github.com/Rohanmrao/Career-Guidance" class="btn btn-primary" target="_blank">View project</a>
                   </div>
                 </div>
               </li>
@@ -133,39 +147,10 @@
               <li class="list-group-item" style="background-color:#181a1a;">
                 <div class="card" style="width: 18rem;">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">FRedBots</h5>
+                    <p class="card-text">Implemented a multi-agent reinforcement learning (MARL) algorithm for task scheduling in a collaborative robotic system, with a focus on package transportation and logistics within warehouses</p>
+                    <a href="https://github.com/Rohanmrao/fredbots" class="btn btn-primary" target="_blank">View project</a>
                   </div>
-                </div>
-              </li>
-
-              <li class="list-group-item" style="background-color:#181a1a;">
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </li>
-
-              <li class="list-group-item" style="background-color:#181a1a;">
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </li>
-
-              <li class="list-group-item" style="background-color:#181a1a;">
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
               </li>
@@ -173,6 +158,8 @@
               <li></li>
 
             </ul>
+
+            <a href="https://github.com/Rohanmrao" class="btn btn-primary" target="_blank">View more</a>
 
           </section>
           

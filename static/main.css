@@ -130,8 +130,8 @@ color: var(--color-hover);
 
 #projects-wrapper{
 
-  padding-left: var(--sidebar-width);
-  padding-bottom: 400px;
+  /* padding-left: var(--sidebar-width); */
+  padding-bottom: 4px;
 }
 
 
@@ -233,7 +233,7 @@ li a {
 
 .anim_background {
   background: linear-gradient(132deg, #181a1a, #202323, #232525);
-  background-size:auto;
+  background-size:contain;
   /* animation: Gradient 4s linear infinite; */
   position: relative;
   height: 100vh;
