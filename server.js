@@ -3,7 +3,6 @@ require('dotenv').config(); // takes in DB url from the .env file
 const express = require('express');
 const server = express();
 const mongoose = require('mongoose');
-const path = require('path');
 
 mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true }); //  connect to the DB from the url in the .env file
 
