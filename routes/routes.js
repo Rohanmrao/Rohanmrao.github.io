@@ -8,7 +8,7 @@ router.use('/static', express.static(path.join(__dirname, '../static')));
 
 router.get('/home', (req,res) => {
 
-    res.sendFile('landing.html',{root: path.join(__dirname,'../html/')});
+    res.sendFile('index.html',{root: path.join(__dirname,'../html/')});
     
 })
 
