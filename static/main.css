@@ -14,12 +14,6 @@
 --color-hover-button: #f2bd1e;
 }
 
-/* @keyframes pulsing-color {
-  0% {background-color: #181a1a;}
-  50% {background-color: #252828;}
-  100% {background-color: #262929;}
-} */
-
 body {
 
 background-color: var(--color-base2);
@@ -47,8 +41,8 @@ img {
 
 width: 80%;
 }
-/* navbar class */
 
+/* navbar class */
 @media (min-width: 992px) {
   .navbar {
     min-height: 100vh;
@@ -64,27 +58,42 @@ width: 80%;
     padding-left: var(--sidebar-width);
     padding-bottom: 4px;
   }
+
+  /* content-wrapper is an id not a class */
+  #content-wrapper{
+
+    padding-left: var(--sidebar-width);
+  }
+
+  #about-wrapper{
+
+    padding-left: var(--sidebar-width);
+  }
+
+  #reachme-wrapper{
+
+    padding-left: var(--sidebar-width);
+  }
+
+  #experience-wrapper{
+
+    padding-left: var(--sidebar-width);
+  }
 }
 
-@media (max-width: 991px) {
-  #projects-wrapper {
-    padding-left: 0px;
-    padding-right: 20px;
+@media(min-width: 991px){
+  .anim_background {
+    background: linear-gradient(132deg, #181a1a, #202323, #232525);
+    background-size:contain;
+    /* animation: Gradient 4s linear infinite; */
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
   }
-  #about-wrapper {
-
-    padding-right: 20px;
-  }
-  #experience-wrapper {
-
-    padding-right: 50px;
-  }
-  #reachme-wrapper {
-
-    padding-left: 0px;;
-    padding-right: 20px;
-    background-color: var(--color-base2);
-  }
+  
 }
 
 .navbar .nav-link {
@@ -97,11 +106,7 @@ width: 80%;
   color: var(--color-hover);
 }
 
-/* content-wrapper is an id not a class */
-#content-wrapper{
 
-    padding-left: var(--sidebar-width);
-}
 
 .full-height {
 
@@ -142,16 +147,6 @@ width: 80%;
   padding-right: 40px;
 }
 
-#about-wrapper{
-
-  padding-left: var(--sidebar-width);
-}
-
-#projects-wrapper{
-
-  /* padding-left: var(--sidebar-width); */
-  padding-bottom: 4px;
-}
 
 
 /* list styling  */
@@ -175,6 +170,8 @@ li a {
   text-decoration: none;
 }
 
+
+/* special animations */
 .lines  {
   position: absolute;
   top: 0;
@@ -232,15 +229,7 @@ li a {
     top: 110%; }
   }
 
-#reachme-wrapper{
 
-    padding-left: var(--sidebar-width);
-}
-
-#experience-wrapper{
-
-  padding-left: var(--sidebar-width);
-}
 
 @keyframes Gradient {
   0% {
@@ -254,34 +243,6 @@ li a {
   }
 }
 
-
-@media(min-width: 991px){
-  .anim_background {
-    background: linear-gradient(132deg, #181a1a, #202323, #232525);
-    background-size:contain;
-    /* animation: Gradient 4s linear infinite; */
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    padding:0;
-    margin:0px;
-  }
-  
-}
-
-/* .anim_background {
-  background: linear-gradient(132deg, #181a1a, #202323, #232525);
-  background-size:contain;
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  padding:0;
-  margin:0px;
-} */
-
-/* button overrides */
 
 .btn-primary {
   background-color: var(--color-hover) !important;
